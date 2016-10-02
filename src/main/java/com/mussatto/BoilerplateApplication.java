@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @SpringBootApplication
 @EnableOAuth2Sso
-public class BoilerplateApplication  extends WebSecurityConfigurerAdapter {
+public class BoilerplateApplication extends WebSecurityConfigurerAdapter {
 
     public static void main(String[] args) {
         SpringApplication.run(BoilerplateApplication.class, args);
