@@ -34,4 +34,5 @@ public class BoilerplateApplication extends WebSecurityConfigurerAdapter {
         registration.addUrlMappings("/console/*");
         return registration;
     }
+
 }
